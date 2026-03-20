@@ -2,3 +2,8 @@
 # Example:
 # Input:         Juan Dela Cruz
 # Output: Juan Dela Cruz
+
+name = input("Enter your fullname: ")
+
+fullname = name.lstrip()
+print(fullname)
